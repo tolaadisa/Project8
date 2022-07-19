@@ -36,16 +36,23 @@ ENSRUE THE PREQUISITES ARE IN PLACE FOR PROJECT 8 TO WORK especiall the HTTPD se
 #Install apache2
 
 `sudo apt update`
+
 `sudo apt install apache2 -y`
+
 `sudo apt-get install libxml2-dev`
 
 #Enable following modules:
 
 `sudo a2enmod rewrite`
+
 `sudo a2enmod proxy`
+
 `sudo a2enmod proxy_balancer`
+
 `sudo a2enmod proxy_http`
+
 `sudo a2enmod headers`
+
 `sudo a2enmod lbmethod_bytraffic`
 
 #Restart apache2 service
