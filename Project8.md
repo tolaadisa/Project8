@@ -14,7 +14,7 @@ This is what the new architechture will look like with the load balancer:
 
 ![architechture](./Images/architechture.png)
 
-In this project we will enhance our Tooling Website solution by adding a Load Balancer to disctribute traffic between Web Servers and allow users to access our website using a single URL.
+In this project we will enhance our Tooling Website solution by adding a Load Balancer to distribute traffic between Web Servers and allow users to access our website using a single URL.
 
 ### Task
 Deploy and configure an Apache Load Balancer for Tooling Website solution on a separate Ubuntu EC2 intance. Make sure that users can be served by Web servers through the Load Balancer
@@ -29,7 +29,7 @@ ENSRUE THE PREQUISITES ARE IN PLACE FOR PROJECT 8 TO WORK especiall the HTTPD se
 
 ![instances](./Images/instances.png)
 
-2. Ensure TCP pore 80 is open for this newly created instance unser inbound rules 
+2. Ensure TCP port 80 is open for this newly created instance unser inbound rules 
 
 3. Install Apache Load Balancer on Project-8-apache-lb server and configure it to point traffic coming to LB to both Web Servers:
 
